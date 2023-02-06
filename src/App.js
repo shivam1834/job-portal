@@ -83,6 +83,7 @@ function App() {
   }
 
   return (
+  
     <>
       {!isLogined ? (
         <>
@@ -93,9 +94,11 @@ function App() {
           </Routes>
         </>
       ) : (
+         
         <>
           <Header remove={logoutSubmit} />
           <Routes>
+       
             <Route path="*" element={<Navigate to="/" />} />
             <Route path="/" element={<Dashboard />} />
             <Route path="/Profile/:id" element={<Profile />} />

@@ -1,5 +1,5 @@
 {
-  "name": "kammao_pwa",
+  "name": "superadmin",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,6 @@
     "react-bootstrap": "^2.2.2",
     "react-chartjs-2": "^4.1.0",
     "react-countup": "^6.3.0",
-    "react-datatable-search-pagination": "^1.0.6",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-jquery-plugin": "^1.1.7",
